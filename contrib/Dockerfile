@@ -1,4 +1,4 @@
-FROM debian:stretch@sha256:0a5fcee6f52d5170f557ee2447d7a10a5bdcf715dd7f0250be0b678c556a501b
+FROM debian:trixie@sha256:3cda3ca472ce45507a5109c6a3907093e24d9ae67d55954c9a07a45665dafba2
 COPY stretch_deps.sh /deps.sh
 RUN /deps.sh && rm /deps.sh
 VOLUME /wallycore
